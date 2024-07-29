@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    Nội dung buổi học
+    1. ý nghĩa tác dụng của việc sử dụng form
+       + form sinh ra để làm gì? form là 1 biểu mẫu dùng dể thu thập thông tin gửi lên sever
+    2. các thuộc tính cơ bản của form
+       + action: địa chỉ sever (nơi nhận dữ liệu)
+       + method: phương thức gửi dữ liệu
+          - post: 
+          - get: 
+    3. các thẻ hay dùng trong form
+       + input: tạo ô nhập dữ liệu
+         - các giá trị của thuộc tính type: 
+           > type=text: giá trị ban đầu của input, có thể nhập mọi dữ liệu
+           > type=password: che đi giá trị nhập vào
+           > type=radio: chọn 1 giá trị trong nhiều giá trị
+             @ các ô input có giá trị giống nhau chỉ chọn đc 1 giá trị
+             @ name là thuộc tính(CSS, lấy dữ liệu, gửi giá trị lên sever)
+           > type=checkbox: chọn nhiều giá trị trong các giá trị cho sẵn
+           > type=email: khi nhập phải đúng định dạng mail(phải có @ và sau @ có text)
+           > type=date: chọn ngày tháng năm
+           > type=time: chọn giờ
+           > type=color: chọn màu
+           > type=range: tiến trình
+           > type=search: hiển thị tick clear giá trị search
+           > placeholder: gợi ý ng dùng nhập
+           > value: giá trị ng dùng trong ô input
+       + label:
+          - khi giá trị của thuộc tính for trong table bằng giá trị của thuộc tính id 
+          trong ô input thì khi click vào thẻ label sẽ tự focus vào ô input
+       + thuộc tính id là định danh cho thẻ (element)
+       + button: tạo nút bấm khi nhấn sẽ gửi dữ liệu lên sever
+       + select-option: tạo thanh chọn 
+    4. sử dụng button
+    5. sử dụng thẻ textarea
+    6. sử dụng select-option(sự lựa chọn)
+
+    -->
+    <!--
+    vd: tạo 1 form cho ng dùng đăng kí
+       + yêu cầu ng dùng nhập các thông tin
+          - email
+          - tên
+          - sđt
+          - mk
+          - confirm mk 
+    
+    -->
+    <form action="">
+        <!-- span khác label khi click vào tiêu đề -->
+        <label for="email">email</label>
+        <input id="email" type="text" placeholder="Nhập email" value="nguyễn A"><br>
+        <label for="">mật khẩu</label>
+        <input type="text"><br>
+        <input type="radio" name="test">A
+        <input type="radio" name="test">B
+        <input type="radio" name="test">C
+        <input type="radio" name="test">D
+        <input type="email"><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="color">
+        <br>
+        <input type="range"><br>
+        <input type="search"><br>
+        <select>
+            <option value="">Tỉnh</option>
+            <option value="">Hà Nội</option>
+            <option value="">TP.HCM</option>
+        </select><br>
+        <textarea name="" id="" rows="10" cols="30"></textarea><br>
+        
+        <button>register</button>
+    </form>
+</body>
+</html>

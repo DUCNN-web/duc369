@@ -1,0 +1,33 @@
+*{
+    /* reset CSS đưa về trạng thái mặc định */
+    
+}
+h3{
+    color: blue;
+}
+.heading1{
+    color: violet;
+}
+#content1{color: tomato;}
+.btn{
+    width:60px ;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.login{
+    color: blue;
+}
+.register{
+    color: aqua;
+}
+h6{
+    color: red;
+}
+.study-code{
+    color: violet;
+}
+h6{
+    color: green;
+}

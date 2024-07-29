@@ -1,0 +1,10 @@
+h1{
+    color:rgba(0, 0, 255, 0.712);
+    font-size: 40px;
+    font-weight: lighter;
+}
+.class1{
+    background-color: antiquewhite;
+    border-left: solid 10px darkgoldenrod;
+    padding: 10px 5px;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    min-height: 100vh;
+}
+
+.dialog-container {
+    background-color: white;
+    width: 500px; /* Điều chỉnh độ rộng của modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.dialog-header {
+    color: black;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between; /* Căn đều tiêu đề và nút đóng */
+    align-items: center;
+}
+
+.dialog-title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+.dialog-body {
+    padding: 20px;
+}
+
+
+.dialog-footer {
+    border-top: 1px solid gray;
+    padding: 15px;
+    text-align: right; /* Căn phải nút */
+}
+
+.open-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

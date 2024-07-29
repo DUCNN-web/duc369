@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    table : bảng
+    -Cách tạo bảng
+     + các thẻ hay dùng trong bảng
+       + thead: đầu
+         + tr: hàng
+         + th: cột
+       + tbody: thân
+         +tr: hàng
+         +td: cột
+       + tfoot: chân
+         +tr: hàng
+         +td: cột
+     + các thuộc tính(property) trong bảng
+       + border: độ dày viền
+       +cellpadding: khoảng cách từ text đến viền của ô
+       + cellspacing: khoảng cách từ viền của ô đến viền của bảng
+       + bgcolor: màu nền bảng
+       + bordercolor: màu đường viền
+       + caption: tiêu đề của bảng
+       + colspan: gộp cột
+       + rowspan: gộp hàng
+    -->
+     <table border="1" bgcolor="gray" bordercolor="yellow" cellpadding="10" cellspacing="40">
+        <caption>Quản lí học sinh</caption> 
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>TÊN LỚP</td>
+                <td>MÃ LỚP HỌC</td>
+                <td>KHÓA HỌC</td>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>TÊN LỚP</th>
+                <th>MÃ LỚP HỌC</th>
+                <th>KHÓA HỌC</th>
+            </tr>
+            <!-- th thay td thì chữ sẽ đc in đậm và chỉnh ra center -->
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Java</td>
+                <td>JV11072024</td>
+                <td>Lập trình Java</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Tổng số học sinh</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+     </table>
+</body>
+</html>

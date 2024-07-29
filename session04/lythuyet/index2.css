@@ -1,0 +1,53 @@
+h1{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:line-through;
+}
+div{
+    text-transform: uppercase;
+}
+.background{
+    background-color: red;
+}
+body{
+    height: 1000px;
+    background-image: url(../../session01/images/NION8662.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.display{
+    display: none;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+}
+.div{
+    display: inline-block;
+}
+.box-model{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    /* padding: 5px; cả 4 hướng */
+    /* padding: 5px 10px; trên dưới 5px trái phải 10px */
+    /* padding: 5px 10px 15px; trên 5 trái phải 10 dưới 15 */
+    /* padding: 5px 10px 15px 20px; trên 5 phải 10 dưới 15 trái 20 */
+    padding: 5px 10px 15px 20px;
+    border: 1px solid black;
+    margin: 5px;
+}

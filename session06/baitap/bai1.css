@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ced4da;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.shape {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    font-size: 18px;
+}
+
+.square {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.circle {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}

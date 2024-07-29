@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        h2{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    ~ CSS là gì?
+         + viết tắt cascading style sheets(ngôn ngữ làm đẹp cho trang web)
+         + khi viết file css thì đuôi phải .css
+    ~ Nhúng đc CSS vào trang web
+         + có 3 cách
+           - inline: viết css trực tiếp vào thẻ tag(element)
+           - internal: viết CSS bên trong cặp thẻ style và cặp thẻ style 
+           nên đặt trong phần head
+           - external: viết CSS trong file có đuôi .css
+        -> ưu nhược điểm của 3 cách:
+           - inline: nhanh nhưng khi code nhiều dễ bị rối
+           - inetrnal: cấu trúc gọn gàng nhưng chỉ có file html đó dùng đc thôi
+           những file khác k dùng đc
+           - external: viết rõ ràng code dễ maintain và có thể cho các file
+           html khác dùng chung đc
+        => làm bài tập, thực hành thì tạo file css viết code vào trong đó
+    ~ Sử dụng đc CSS selector
+         + selector: bộ chọn để css, định danh cho các element
+         + class cách dùng .tên class: có thể dùng chung hoặc dùng riêng, 
+         1 element có thể có nhiều class
+         + id cách dùng # tên id: định danh duy nhất giống CCCD
+         Mức độ ưu tiên sau>trước, id>class>element,
+        inline>internal>external(!important lớn nhất)
+   
+    -->
+    <h1 style="color: red;">CSS Basic</h1>
+    <h2>CSS internal</h2>
+    <h3 class="heading1" id="content1">CSS external</h3>
+    <h3>Lorem ipsum dolor. </h3>
+    <button class="btn login">login</button>
+    <button class="btn register">register</button>
+    <h6 class="study-code">Hello the world</h6>
+</body>
+</html>

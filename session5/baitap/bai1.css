@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #acaaaa;
+    background-color: #e7d4bd;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #858282;
+}
+
+button[type="submit"] {
+    background-color: #47c04b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: #f1f100;
+    border-color: #ced4da;
+}

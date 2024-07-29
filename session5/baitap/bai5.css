@@ -1,0 +1,21 @@
+body {
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #ddd;
+    color: red;
+    transform: translateX(10px);
+}

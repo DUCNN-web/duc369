@@ -1,0 +1,47 @@
+#myNavbar {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(226, 225, 237);
+    padding: 10px;
+}
+
+#myNavbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+#smileyIcon {
+    display: none;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 590px) {
+    #myNavbar {
+        display: none;
+    }
+
+    #smileyIcon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+    }
+
+    .container img {
+        margin-top: 20px;
+    }
+}

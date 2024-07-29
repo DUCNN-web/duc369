@@ -1,0 +1,22 @@
+body{
+    width: 1000px;
+    text-align: center;
+}
+.class1{
+    background-color: rgb(231, 230, 230);
+    padding: 10px;
+    font-size: 20px;
+}
+button{
+    padding: 10px 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.class2{
+    padding: 10px;
+    background-color: rgb(231, 230, 230);
+    color: grey;
+}
